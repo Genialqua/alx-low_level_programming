@@ -1,15 +1,2 @@
 #!/bin/bash
-<<<<<<< HEAD
-#include <stdio.h>
-# A script that runs through the preprocessor
-/*
-*main()
-*
 $CFILE="0-preprocessor" > c
-*Return:(0)
-*/
-
-
-=======
-/*gdjih hbdjj */
->>>>>>> 01145edb9ee149e9d3110bc14a26d983671d53d6
