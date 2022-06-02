@@ -1,2 +1,11 @@
 #!/bin/bash
-/*gdjih hbdjj */
+#include <stdio.h>
+# A script that runs through the preprocessor
+/*
+*main()
+*
+$CFILE="0-preprocessor" > c
+*Return:(0)
+*/
+
+
