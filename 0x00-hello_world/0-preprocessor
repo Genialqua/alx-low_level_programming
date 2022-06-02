@@ -1,4 +1,5 @@
 #!/bin/bash
+<<<<<<< HEAD
 #include <stdio.h>
 # A script that runs through the preprocessor
 /*
@@ -9,3 +10,6 @@ $CFILE="0-preprocessor" > c
 */
 
 
+=======
+/*gdjih hbdjj */
+>>>>>>> 01145edb9ee149e9d3110bc14a26d983671d53d6
