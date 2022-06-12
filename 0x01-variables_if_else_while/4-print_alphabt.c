@@ -14,9 +14,6 @@ int main(void)
 {
 	char ch, e, q;
 
-	ch = e;
-	ch = q;
-
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 	if (ch != e && ch != q)
