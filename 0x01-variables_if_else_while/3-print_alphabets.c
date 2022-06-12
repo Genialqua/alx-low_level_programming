@@ -18,6 +18,7 @@ int main(void)
 	{ putchar(ch); }
 	for (ch = 'A'; ch <= 'Z'; ch++)
 	{ putchar(ch); }
+	{ printf("\n"); }
 	return (0);
 }
 
