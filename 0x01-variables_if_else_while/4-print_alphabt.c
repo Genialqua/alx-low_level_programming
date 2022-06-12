@@ -12,12 +12,15 @@
 
 int main(void)
 {
-	char ch, e, q;
+	char low, e, q;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	e = 'e';
+	q = 'q';
+
+	for (low = 'a'; low <= 'z'; low++)
 	{
-	if (ch != e && ch != q)
-	putchar(ch); }
+	if (low != e && low != q)
+	putchar(low); }
 	{ printf("\n"); }
 	return (0);
 }
