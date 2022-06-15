@@ -10,12 +10,13 @@
 
 int main(void)
 {
-	char *sh = "main.h";
+	char ch[9] = "_putchar";
+	int i = 0;
 
-	while (*sh)
+	while (i < 8)
 	{
-		_putchar(*sh);
-		sh++;
+		_putchar(ch[i]);
+		i++;
 	}
 	_putchar('\n');
 	return (0);
