@@ -8,15 +8,17 @@
 
 void print_alphabet_x10(void)
 {
-	int print_alphabet_x10 = 1;
-	char ch;
+	int n, co;
 
-	while (print_alphabet_x10 <= 10)
+	co = 0;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	while (co < 10)
+	{
+	for (n = 'a'; n <= 'z'; n++)
 {
-	_putchar(ch);
+	_putchar(n);
 }
+	co++;
 	_putchar('\n');
-	print_alphabet_x10++;
+	}
 }
