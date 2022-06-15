@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: 'A program that prints putchar'
+ * Description: 'A program that prints putchar as desired'
  *
  * Return: Always 0 (Success)
  */
