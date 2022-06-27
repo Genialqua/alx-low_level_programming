@@ -1,1 +1,3 @@
-C static library\n
+#! /bin/bash
+C static library
+\n
