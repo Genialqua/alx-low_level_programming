@@ -1,7 +1,5 @@
 #!/bin/bash
 
 gcc -c *.c
-ar -rc libmy.a *.o
-ranlib libmy.a
-
-\n
+ar -rc liball.a *.o
+ranlib liball.a
