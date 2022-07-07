@@ -2,7 +2,7 @@
 
 /**
  * main - To create an infinite loop
- * 
+ *
  * Return: 0
  */
 
