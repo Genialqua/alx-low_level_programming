@@ -1,8 +1,3 @@
 #!/bin/bash
 
-/* This script compiles a file
- * and outputs the result into another
- * file
- */
-
 gcc $CFILE -o c
