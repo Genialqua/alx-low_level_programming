@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description: 'A program that prints sizes of data types on different systems'
+ * Description:'A program that prints sizes of data types on different systems'
  * Return: Always 0 (Success)
  */
 
