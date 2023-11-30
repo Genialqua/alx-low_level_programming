@@ -18,7 +18,7 @@ count++;
 
 to_screen = write(STDOUT_FILENO, out_put, count);
 to_screen += write(STDOUT_FILENO, "\n", 1);
-return (to_screen);
+return (0);
 }
 
 
