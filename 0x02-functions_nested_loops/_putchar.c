@@ -3,22 +3,11 @@
 /**
  * _putchar - Entry point of program
  * Description: 'To print to screen without regular tools'
+ * @c: The character to print
  * Return: Always success
  */
 
-
-int _putchar(char *out_put)
+int _putchar(char c)
 {
-int to_screen;
-size_t count = 0;
-while (out_put[count] != '\0')
-{
-count++;
+	return (write(1, &c, 1));
 }
-
-to_screen = write(STDOUT_FILENO, out_put, count);
-to_screen += write(STDOUT_FILENO, "\n", 1);
-return (0);
-}
-
-
