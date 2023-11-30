@@ -10,7 +10,7 @@
 int _putchar(void)
 {
 char *out_put = "_putchar\n";
-size_t count = (sizeof(out_put) + 1);
+size_t count = sizeof("_putchar\n") - 1;
 int to_screen = 0;
 
 to_screen = write(STDOUT_FILENO, out_put, count);
