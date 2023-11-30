@@ -9,6 +9,7 @@
 
 int main(void)
 {
-_putchar();
+char input[] = "_putchar\n";
+_putchar(input);
 return (0);
 }

@@ -7,11 +7,14 @@
  */
 
 
-int _putchar(void)
+int _putchar(char *out_put)
 {
-char *out_put = "_putchar\n";
-size_t count = sizeof("_putchar\n") - 1;
-int to_screen = 0;
+int to_screen;
+size_t count = 0;
+while (out_put[count] != '\0')
+{
+count++;
+}
 
 to_screen = write(STDOUT_FILENO, out_put, count);
 return (to_screen);
