@@ -10,21 +10,17 @@
 
 int print_last_digit(int n)
 {
-int last_digit;
-{
-/*Ensure the number is not negative*/
-if (n < 0)
+	int l;
 
-n = -n;
-}
-
-/*Extract the last digit*/
-last_digit = n % 10;
-
-/*Print the last digit*/
-_putchar('0' + last_digit);
-
-/*Return the last digit*/
-return (last_digit);
-
+	l = n % 10;
+	if (l < 0)
+	{
+		_putchar(-l + 48);
+		return (-l);
+	}
+	else
+	{
+		_putchar(l + 48);
+		return (l);
+	}
 }
